@@ -1,0 +1,16 @@
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - matplotlib
+  - scikit-image
+  - pandas
+  - ipyvolume
+  - pip
+  - voila
+  - itkwidgets
+  - pip:
+    - trackpy
+    - tensorflow
+    - keras
+    - tqdm

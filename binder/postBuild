@@ -1,0 +1,2 @@
+cd installation
+python download_data.py
