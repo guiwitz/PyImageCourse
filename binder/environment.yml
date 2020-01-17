@@ -11,6 +11,8 @@ dependencies:
   - pip
   - voila
   - itkwidgets
+  - jupyterlab
+  - nodejs
   - pip:
     - napari
     - trackpy

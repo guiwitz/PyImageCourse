@@ -6,9 +6,9 @@
 - Open a terminal and ```cd``` to it.
 - Create the conda environment by typing:
 
-  ```bash
-  conda env create -f binder/environment.yml
-  ```
+    ```bash
+    conda env create -f binder/environment.yml
+    ```
   
 - Activate the conda environment by typing:
     ```bash
@@ -17,9 +17,16 @@
     
 - Download the data by typing:
 
-  ```bash
-  python installation/download_data.py
-  ```
+    ```bash
+    python installation/download_data.py
+    ```
+  
+- To use JupyterLab, install extensions by executing:
+    
+    ```bash
+    chmod u+x installation/install_jlab_extensions.sh
+    ./installation/install_jlab_extensions.sh
+    ```
 
 ## 2. Exploring the PyImageCourse
 
