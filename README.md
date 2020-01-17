@@ -10,9 +10,14 @@
   conda env create -f binder/environment.yml
   ```
   
+- Activate the conda environment by typing:
+    ```bash
+    conda activate improc_env
+    ```
+    
 - Download the data by typing:
 
-  ```python
+  ```bash
   python installation/download_data.py
   ```
 
