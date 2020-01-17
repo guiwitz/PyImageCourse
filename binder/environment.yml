@@ -12,6 +12,7 @@ dependencies:
   - voila
   - itkwidgets
   - pip:
+    - napari
     - trackpy
     - tensorflow
     - keras

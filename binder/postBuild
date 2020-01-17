@@ -1,2 +1,2 @@
-cd installation
-python download_data.py
+#cd installation
+python installation/download_data.py

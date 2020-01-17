@@ -2,7 +2,8 @@ import sys, os, zipfile
 import urllib.request
 import requests
 
-where_to_save = '../Data/'
+#where_to_save = '../Data/'
+where_to_save = 'Data/'
 
 #create data directory
 if not os.path.exists(where_to_save):
