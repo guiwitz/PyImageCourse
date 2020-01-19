@@ -14,6 +14,8 @@ dependencies:
   - jupyterlab
   - nodejs
   - scikit-learn
+  - rise
+  - jupyter_contrib_nbextensions
   - pip:
     - napari
     - trackpy
