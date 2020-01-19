@@ -13,6 +13,7 @@ dependencies:
   - itkwidgets
   - jupyterlab
   - nodejs
+  - scikit-learn
   - pip:
     - napari
     - trackpy
