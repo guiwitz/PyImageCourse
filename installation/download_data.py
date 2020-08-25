@@ -10,7 +10,8 @@ if not os.path.exists(where_to_save):
     os.makedirs(where_to_save)
     
 #import Klee painting
-url = 'https://img.myswitzerland.com/671846/407'  
+#url = 'https://img.myswitzerland.com/671846/407'
+url = 'https://upload.wikimedia.org/wikipedia/commons/f/fd/%27%C3%9Cbermut_Exub%C3%A9rance%27_by_Paul_Klee%2C_1939.jpg'
 urllib.request.urlretrieve(url, where_to_save+'Klee.jpg')
 
 #import zebrafish embryo
